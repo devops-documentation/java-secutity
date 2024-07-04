@@ -1,0 +1,11 @@
+
+spring:
+  data:
+    mongodb:
+      database: JavaLearning
+      uri: mongodb://localhost:27017/
+
+JWT:
+  SECRET_KEY: 74a24f5fc389ec89af2d0713e2073a58
+  token:
+    validity: 31536000000
